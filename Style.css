@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+    text-align: center;
+    border: 4px solid rgb(20, 153, 247);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, lightblue, white);
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.aqua,
+.palevioletred,
+.lightsalmon,
+.plum {
+    height: 150px;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 8%;
+    margin: 2rem;
+    margin-top: 4rem;
+    font-weight: bolder;
+
+
+}
+
+h2 {
+    border: 2px solid pink;
+    border-radius: 5px;
+    background: linear-gradient(to right, pink, rgb(128, 128, 243));
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.palevioletred {
+    background-color: palevioletred;
+}
+
+.lightsalmon {
+    background-color: lightsalmon;
+}
+
+.plum {
+    background-color: plum;
+}
+
+.flash {
+    background-color: aliceblue;
+}
+
+.userflash {
+    background-color: rgb(235, 244, 137);
+}
+
+h3 {
+    color: crimson;
+    font-weight: bolder;
+}
+
+
+.high-score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #474dff;
+    margin-top: 20px;
+}
+
+.high-score-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #47d0eb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.high-score-btn:hover {
+    background-color: #4052f3;
+    /* Darker tomato color */
+}
